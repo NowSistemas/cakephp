@@ -1,0 +1,77 @@
+2014-08-26 01:23:13 Error: [MissingActionException] Action AppController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'index',
+)
+Request URL: /cakephp/app/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-26 01:29:44 Error: [MissingActionException] Action AppController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'index',
+)
+Request URL: /cakephp/app/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-26 01:30:24 Error: [MissingActionException] Action AppController::View() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'View',
+)
+Request URL: /cakephp/app/View/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-26 01:30:31 Error: [MissingActionException] Action AppController::View() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'View',
+)
+Request URL: /cakephp/app/View/Atletas/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-26 01:30:37 Error: [MissingActionException] Action AppController::View() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'View',
+)
+Request URL: /cakephp/app/View/Atletas/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-29 21:44:02 Error: [MissingActionException] Action AppController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'index',
+)
+Request URL: /fidelity/app/
+Stack Trace:
+#0 C:\xampp\htdocs\fidelity\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\fidelity\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\fidelity\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-29 21:57:19 Error: [MissingActionException] Action ClientesController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'index',
+)
+Request URL: /fidelity/clientes
+Stack Trace:
+#0 C:\xampp\htdocs\fidelity\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\fidelity\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\fidelity\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
