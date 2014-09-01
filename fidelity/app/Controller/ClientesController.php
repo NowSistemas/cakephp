@@ -4,7 +4,7 @@
 		public $name = 'Clientes';
 
 		public function index(){
-			$this->paginate=array('limit'=>30,'order'=>array('Cliente.cliente'=>'asc'));
+			$this->paginate=array('limit'=>15,'order'=>array('Cliente.cliente'=>'asc'));
 			$clientes = $this->paginate('Cliente');
 
 			$this->set(compact('clientes'));
@@ -39,6 +39,11 @@
 			$this->redirect($this->referer());
 		}
 
-
+		public function visualizar($id = null){
+			if($id && $this->request->isGet()){
+				$cliente = $this->Cliente->read(null, $id);
+				$this->set(compact('cliente'));
+			}
+		}
 	}
 ?>
