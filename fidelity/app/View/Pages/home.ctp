@@ -10,18 +10,47 @@ if (!Configure::read('debug')):
 endif;
 
 App::uses('Debugger', 'Utility');
+// carrega o meu CSS
+//echo $this->Html->css('estilos');
+
 ?>
 <h2>FidelityWeb - Gestão de Programas de Fidelidade</h2>
-<!--<h2><?php echo __d('cake_dev', 'Release Notes for CakePHP %s.', Configure::version()); ?></h2>-->
+
 <h1>Menu Principal</h1>
 <hr />
-<h1>Cadastros</h1>
-<a href="http://localhost/fidelity/clientes">Clientes</a>
-<!--
-<p>
-	<a href="http://cakephp.org/changelogs/<?php echo Configure::version(); ?>"><?php echo __d('cake_dev', 'Read the changelog'); ?> </a>
-</p>
--->
+<nav>
+  <ul class="menu">
+        <li><a href="/fidelity/">Home</a></li>
+        <li><a href="#">Cadastros</a>
+            <ul>
+            	<li><a href="#">Atendentes</a></li>
+            	<li><a href="#">Brindes</a></li>
+                <li><a href="/fidelity/clientes/">Clientes</a></li>
+                <li><a href="#">Faixas Salariais</a></li>
+                <li><a href="#">Produtos / Serviços</a></li>
+                <li><a href="/fidelity/profissoes/">Profissões</a></li>
+                <li><a href="#">Times de Futebl</a></li>                   
+            </ul>
+        </li>
+        <li><a href="#">Links</a></li>
+        <li><a href="#">Contato</a></li>               
+</ul>
+</nav>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
 <?php
 if (Configure::read('debug') > 0):
 	Debugger::checkSecurityKeys();

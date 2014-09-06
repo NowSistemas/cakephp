@@ -1,8 +1,8 @@
 <?php
 	
-	class ClientesController extends AppController {
+	class ProfissoesController extends AppController {
 
-		public $name = 'Clientes';
+		public $name = 'Profissoes';
 
 		public $helpers = array('Html', 'Form', 'Js');
 

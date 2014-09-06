@@ -1,4 +1,11 @@
-<h2>Cadastro de Clientes .::. Total de clientes cadastrados: <?php echo $totalcli; ?></h2>
+<?php header("Content-Type: text/html; charset=ISO-8859-1", true); ?>
+
+<?php
+	echo $this->Html->script('jquery');
+	echo $this->Html->script('jquery.tablesorter.js');
+?>
+
+<h3>Cadastro de Clientes .::. Total de clientes cadastrados: <?php echo $totalcli; ?></h3>
 <hr />
 <table>
 	<tr>
@@ -9,7 +16,7 @@
 </table>
 
 
-<table>
+<table id="tblClientes">
 	<tr>
 		<th>Codigo</th>
 		<th>Cliente</th>
@@ -44,3 +51,10 @@
 <?=$this->Paginator->numbers();?>
 <? echo "    ";?>
 <?=$this->Paginator->next(' >> ', array(), NULL, array('class' => 'disabled'));?>
+
+<?php
+	$this->Html->scriptBlock('
+    $(document).ready(function(){
+        $("#tblClientes").tablesorter({decimal: ",", dateFormat: "uk"});
+    });', array('inline' => false));
+?>
