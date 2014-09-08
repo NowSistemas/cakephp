@@ -1,10 +1,5 @@
 <?php header("Content-Type: text/html; charset=ISO-8859-1", true); ?>
 
-<?php
-	echo $this->Html->script('jquery');
-	echo $this->Html->script('jquery.tablesorter.js');
-?>
-
 <h3>Cadastro de Clientes .::. Total de clientes cadastrados: <?php echo $totalcli; ?></h3>
 <hr />
 <table>
@@ -19,8 +14,8 @@
 <table id="tblClientes">
 	<tr>
 		<th>Codigo</th>
-		<th>Cliente</th>
-		<th>Pontos</th>
+		<th><?=$this->Paginator->sort('cliente');?></th>
+		<th><?=$this->Paginator->sort('pontos');?></th>
 		<th>Endereço</th>
 		<th>Bairro</th>
 		<th>Cidade</th>
@@ -52,9 +47,4 @@
 <? echo "    ";?>
 <?=$this->Paginator->next(' >> ', array(), NULL, array('class' => 'disabled'));?>
 
-<?php
-	$this->Html->scriptBlock('
-    $(document).ready(function(){
-        $("#tblClientes").tablesorter({decimal: ",", dateFormat: "uk"});
-    });', array('inline' => false));
-?>
+

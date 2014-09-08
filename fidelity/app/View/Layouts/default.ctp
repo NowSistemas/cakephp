@@ -28,11 +28,14 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 		echo $this->Html->meta('icon');
 
 		echo $this->Html->css('cake.generic');
-		//echo $this->Html->css('estilos');
 
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
 		echo $this->fetch('script');
+		echo $this->Html->script('jquery');
+		echo $this->Html->script('jquery.tablesorter.js');
+		echo $this->Html->script('app.js');
+
 
 	?>
 

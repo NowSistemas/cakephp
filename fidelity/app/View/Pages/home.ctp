@@ -10,8 +10,6 @@ if (!Configure::read('debug')):
 endif;
 
 App::uses('Debugger', 'Utility');
-// carrega o meu CSS
-//echo $this->Html->css('estilos');
 
 ?>
 <h2>FidelityWeb - Gestão de Programas de Fidelidade</h2>

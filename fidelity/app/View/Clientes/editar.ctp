@@ -1,4 +1,7 @@
-<h1>Alteração de Dados dos Clientes</h1>
+<div id="logo">Sua Logo</div>
+<hr />
+<br/>
+<h1>Alterar Dados dos Clientes</h1>
 
 <?php
 	echo $this->Form->create('Cliente',array('action' => 'editar')),

@@ -4,7 +4,7 @@
 
 		public $name = 'Clientes';
 
-		public $helpers = array('Html', 'Form', 'Js');
+		public $helpers = array('Html', 'Form', 'Js');		
 
 		public function index(){
 			$this->paginate=array('limit'=>15,'order'=>array('Cliente.cliente'=>'asc'));
