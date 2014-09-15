@@ -1067,3 +1067,304 @@ Stack Trace:
 #3 C:\xampp\htdocs\fidelity\lib\Cake\Core\App.php(904): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2014-09-10 00:59:10 Error: [MissingControllerException] Controller class ProfissoesController could not be found.
+Exception Attributes: array (
+  'class' => 'ProfissoesController',
+  'plugin' => NULL,
+)
+Request URL: /fidelity/profissoes/
+Stack Trace:
+#0 C:\xampp\htdocs\fidelity\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-10 01:00:02 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\fidelity\app\Controller\ProfissaosController.php, line 14]
+2014-09-10 01:00:02 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /fidelity/profissaos
+Stack Trace:
+#0 C:\xampp\htdocs\fidelity\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 14)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 14, Array)
+#2 C:\xampp\htdocs\fidelity\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 14, Array)
+#3 C:\xampp\htdocs\fidelity\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-10 01:02:58 Error: [MissingControllerException] Controller class ProfissoesController could not be found.
+Exception Attributes: array (
+  'class' => 'ProfissoesController',
+  'plugin' => NULL,
+)
+Request URL: /fidelity/profissoes/
+Stack Trace:
+#0 C:\xampp\htdocs\fidelity\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-10 01:03:32 Error: [MissingActionException] Action ProfissaosController::cadastrar() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProfissaosController',
+  'action' => 'cadastrar',
+)
+Request URL: /fidelity/profissaos/cadastrar
+Stack Trace:
+#0 C:\xampp\htdocs\fidelity\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\fidelity\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProfissaosController), Object(CakeRequest))
+#2 C:\xampp\htdocs\fidelity\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-10 01:03:46 Error: [MissingActionException] Action ProfissaosController::visualizar() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProfissaosController',
+  'action' => 'visualizar',
+)
+Request URL: /fidelity/profissaos/visualizar/271
+Stack Trace:
+#0 C:\xampp\htdocs\fidelity\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\fidelity\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProfissaosController), Object(CakeRequest))
+#2 C:\xampp\htdocs\fidelity\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-10 01:11:13 Error: Fatal Error (1): Call to a member function create() on a non-object in [C:\xampp\htdocs\fidelity\app\View\Clientes\editar.ctp, line 4]
+2014-09-10 01:11:13 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /fidelity/clientes/editar/4468
+Stack Trace:
+#0 C:\xampp\htdocs\fidelity\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 4)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 4, Array)
+#2 C:\xampp\htdocs\fidelity\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 4, Array)
+#3 C:\xampp\htdocs\fidelity\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-10 01:11:28 Error: Fatal Error (1): Call to a member function create() on a non-object in [C:\xampp\htdocs\fidelity\app\View\Clientes\editar.ctp, line 4]
+2014-09-10 01:11:28 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /fidelity/clientes/editar/4468
+Stack Trace:
+#0 C:\xampp\htdocs\fidelity\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 4)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 4, Array)
+#2 C:\xampp\htdocs\fidelity\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 4, Array)
+#3 C:\xampp\htdocs\fidelity\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-10 01:11:32 Error: Fatal Error (1): Call to a member function create() on a non-object in [C:\xampp\htdocs\fidelity\app\View\Clientes\editar.ctp, line 4]
+2014-09-10 01:11:32 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /fidelity/clientes/editar/4017
+Stack Trace:
+#0 C:\xampp\htdocs\fidelity\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 4)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 4, Array)
+#2 C:\xampp\htdocs\fidelity\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 4, Array)
+#3 C:\xampp\htdocs\fidelity\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-10 01:12:42 Error: Fatal Error (1): Call to a member function input() on a non-object in [C:\xampp\htdocs\fidelity\app\View\Clientes\editar.ctp, line 8]
+2014-09-10 01:12:42 Error: [FatalErrorException] Call to a member function input() on a non-object
+Request URL: /fidelity/clientes/editar/4468
+Stack Trace:
+#0 C:\xampp\htdocs\fidelity\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 8, Array)
+#2 C:\xampp\htdocs\fidelity\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 8, Array)
+#3 C:\xampp\htdocs\fidelity\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-10 01:15:36 Error: Fatal Error (1): Call to undefined method View::input() in [C:\xampp\htdocs\fidelity\app\View\Clientes\editar.ctp, line 8]
+2014-09-10 01:15:36 Error: [FatalErrorException] Call to undefined method View::input()
+Request URL: /fidelity/clientes/editar/4468
+Stack Trace:
+#0 C:\xampp\htdocs\fidelity\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 8, Array)
+#2 C:\xampp\htdocs\fidelity\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 8, Array)
+#3 C:\xampp\htdocs\fidelity\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-10 01:15:44 Error: Fatal Error (1): Call to undefined method View::input() in [C:\xampp\htdocs\fidelity\app\View\Clientes\editar.ctp, line 8]
+2014-09-10 01:15:44 Error: [FatalErrorException] Call to undefined method View::input()
+Request URL: /fidelity/clientes/editar/4468
+Stack Trace:
+#0 C:\xampp\htdocs\fidelity\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 8, Array)
+#2 C:\xampp\htdocs\fidelity\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 8, Array)
+#3 C:\xampp\htdocs\fidelity\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-10 01:16:29 Error: Fatal Error (1): Call to undefined method View::create() in [C:\xampp\htdocs\fidelity\app\View\Clientes\editar.ctp, line 4]
+2014-09-10 01:16:29 Error: [FatalErrorException] Call to undefined method View::create()
+Request URL: /fidelity/clientes/editar/4468
+Stack Trace:
+#0 C:\xampp\htdocs\fidelity\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 4)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 4, Array)
+#2 C:\xampp\htdocs\fidelity\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 4, Array)
+#3 C:\xampp\htdocs\fidelity\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-10 01:17:05 Error: Fatal Error (1): Call to a member function create() on a non-object in [C:\xampp\htdocs\fidelity\app\View\Clientes\editar.ctp, line 4]
+2014-09-10 01:17:05 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /fidelity/clientes/editar/4468
+Stack Trace:
+#0 C:\xampp\htdocs\fidelity\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 4)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 4, Array)
+#2 C:\xampp\htdocs\fidelity\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 4, Array)
+#3 C:\xampp\htdocs\fidelity\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-15 23:51:19 Error: [MissingActionException] Action ProfissaosController::cadastrar() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProfissaosController',
+  'action' => 'cadastrar',
+)
+Request URL: /fidelity/profissaos/cadastrar
+Stack Trace:
+#0 C:\xampp\htdocs\fidelity\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\fidelity\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProfissaosController), Object(CakeRequest))
+#2 C:\xampp\htdocs\fidelity\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-15 23:56:53 Error: [MissingActionException] Action ProfissaosController::visualizar() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProfissaosController',
+  'action' => 'visualizar',
+)
+Request URL: /fidelity/profissaos/visualizar/106
+Stack Trace:
+#0 C:\xampp\htdocs\fidelity\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\fidelity\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProfissaosController), Object(CakeRequest))
+#2 C:\xampp\htdocs\fidelity\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-15 23:58:04 Error: [MissingViewException] View file "C:\xampp\htdocs\fidelity\app\View\Profissaos\visualizar.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\xampp\\htdocs\\fidelity\\app\\View\\Profissaos\\visualizar.ctp',
+)
+Request URL: /fidelity/profissaos/visualizar/106
+Stack Trace:
+#0 C:\xampp\htdocs\fidelity\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\fidelity\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\fidelity\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\xampp\htdocs\fidelity\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProfissaosController), Object(CakeRequest))
+#4 C:\xampp\htdocs\fidelity\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-16 00:00:15 Error: [MissingActionException] Action ProfissaosController::excluir() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProfissaosController',
+  'action' => 'excluir',
+)
+Request URL: /fidelity/profissaos/excluir/52
+Stack Trace:
+#0 C:\xampp\htdocs\fidelity\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\fidelity\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProfissaosController), Object(CakeRequest))
+#2 C:\xampp\htdocs\fidelity\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-16 00:01:49 Error: [MissingActionException] Action ProfissaosController::editar() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProfissaosController',
+  'action' => 'editar',
+)
+Request URL: /fidelity/profissaos/editar/52
+Stack Trace:
+#0 C:\xampp\htdocs\fidelity\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\fidelity\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProfissaosController), Object(CakeRequest))
+#2 C:\xampp\htdocs\fidelity\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-16 00:02:53 Error: [MissingViewException] View file "C:\xampp\htdocs\fidelity\app\View\Profissaos\editar.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\xampp\\htdocs\\fidelity\\app\\View\\Profissaos\\editar.ctp',
+)
+Request URL: /fidelity/profissaos/editar/106
+Stack Trace:
+#0 C:\xampp\htdocs\fidelity\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\fidelity\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\fidelity\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\xampp\htdocs\fidelity\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProfissaosController), Object(CakeRequest))
+#4 C:\xampp\htdocs\fidelity\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-16 00:04:30 Error: Fatal Error (1): Call to a member function create() on a non-object in [C:\xampp\htdocs\fidelity\app\View\Profissaos\editar.ctp, line 4]
+2014-09-16 00:04:30 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /fidelity/profissaos/editar/117
+Stack Trace:
+#0 C:\xampp\htdocs\fidelity\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 4)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 4, Array)
+#2 C:\xampp\htdocs\fidelity\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 4, Array)
+#3 C:\xampp\htdocs\fidelity\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-16 00:04:55 Error: Fatal Error (1): Call to a member function create() on a non-object in [C:\xampp\htdocs\fidelity\app\View\Profissaos\editar.ctp, line 4]
+2014-09-16 00:04:55 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /fidelity/profissaos/editar/52
+Stack Trace:
+#0 C:\xampp\htdocs\fidelity\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 4)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 4, Array)
+#2 C:\xampp\htdocs\fidelity\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 4, Array)
+#3 C:\xampp\htdocs\fidelity\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-16 00:05:23 Error: Fatal Error (1): Call to a member function create() on a non-object in [C:\xampp\htdocs\fidelity\app\View\Profissaos\editar.ctp, line 4]
+2014-09-16 00:05:23 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /fidelity/profissaos/editar/52
+Stack Trace:
+#0 C:\xampp\htdocs\fidelity\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 4)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 4, Array)
+#2 C:\xampp\htdocs\fidelity\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 4, Array)
+#3 C:\xampp\htdocs\fidelity\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-16 00:05:31 Error: Fatal Error (1): Call to a member function create() on a non-object in [C:\xampp\htdocs\fidelity\app\View\Clientes\editar.ctp, line 4]
+2014-09-16 00:05:31 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /fidelity/clientes/editar/3992
+Stack Trace:
+#0 C:\xampp\htdocs\fidelity\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 4)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 4, Array)
+#2 C:\xampp\htdocs\fidelity\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 4, Array)
+#3 C:\xampp\htdocs\fidelity\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-16 00:06:06 Error: Fatal Error (1): Call to a member function create() on a non-object in [C:\xampp\htdocs\fidelity\app\View\Clientes\editar.ctp, line 4]
+2014-09-16 00:06:06 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /fidelity/clientes/editar/3992
+Stack Trace:
+#0 C:\xampp\htdocs\fidelity\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 4)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 4, Array)
+#2 C:\xampp\htdocs\fidelity\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 4, Array)
+#3 C:\xampp\htdocs\fidelity\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-16 00:06:37 Error: Fatal Error (1): Call to a member function create() on a non-object in [C:\xampp\htdocs\fidelity\app\View\Clientes\editar.ctp, line 4]
+2014-09-16 00:06:37 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /fidelity/clientes/editar/3992
+Stack Trace:
+#0 C:\xampp\htdocs\fidelity\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 4)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 4, Array)
+#2 C:\xampp\htdocs\fidelity\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 4, Array)
+#3 C:\xampp\htdocs\fidelity\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-16 00:06:44 Error: [MissingActionException] Action ProfissaosController::cadastrar() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProfissaosController',
+  'action' => 'cadastrar',
+)
+Request URL: /fidelity/profissaos/cadastrar
+Stack Trace:
+#0 C:\xampp\htdocs\fidelity\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\fidelity\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProfissaosController), Object(CakeRequest))
+#2 C:\xampp\htdocs\fidelity\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-16 00:07:46 Error: [MissingViewException] View file "C:\xampp\htdocs\fidelity\app\View\Profissaos\cadastrar.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\xampp\\htdocs\\fidelity\\app\\View\\Profissaos\\cadastrar.ctp',
+)
+Request URL: /fidelity/profissaos/cadastrar
+Stack Trace:
+#0 C:\xampp\htdocs\fidelity\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\fidelity\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\fidelity\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\xampp\htdocs\fidelity\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProfissaosController), Object(CakeRequest))
+#4 C:\xampp\htdocs\fidelity\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-16 00:10:19 Error: Fatal Error (1): Call to a member function create() on a non-object in [C:\xampp\htdocs\fidelity\app\View\Clientes\editar.ctp, line 4]
+2014-09-16 00:10:19 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /fidelity/clientes/editar/3992
+Stack Trace:
+#0 C:\xampp\htdocs\fidelity\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 4)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 4, Array)
+#2 C:\xampp\htdocs\fidelity\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 4, Array)
+#3 C:\xampp\htdocs\fidelity\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-16 00:45:30 Error: Fatal Error (1): Call to a member function create() on a non-object in [C:\xampp\htdocs\fidelity\app\View\Clientes\editar.ctp, line 4]
+2014-09-16 00:45:30 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /fidelity/clientes/editar/3992
+Stack Trace:
+#0 C:\xampp\htdocs\fidelity\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 4)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 4, Array)
+#2 C:\xampp\htdocs\fidelity\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 4, Array)
+#3 C:\xampp\htdocs\fidelity\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

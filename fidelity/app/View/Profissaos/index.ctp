@@ -31,5 +31,9 @@
 	<?php } ?>
 </table>
 
-
+<?=$this->Paginator->prev(' << ', array(), NULL, array('class' => 'disabled'));?>
+<? echo "    ";?>
+<?=$this->Paginator->numbers();?>
+<? echo "    ";?>
+<?=$this->Paginator->next(' >> ', array(), NULL, array('class' => 'disabled'));?>
 

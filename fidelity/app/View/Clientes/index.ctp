@@ -1,5 +1,6 @@
 <?php header("Content-Type: text/html; charset=ISO-8859-1", true); ?>
 
+
 <h3>Cadastro de Clientes .::. Total de clientes cadastrados: <?php echo $totalcli; ?></h3>
 <hr />
 <table>

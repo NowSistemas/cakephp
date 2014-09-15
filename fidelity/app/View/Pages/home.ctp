@@ -26,7 +26,7 @@ App::uses('Debugger', 'Utility');
                 <li><a href="/fidelity/clientes/">Clientes</a></li>
                 <li><a href="#">Faixas Salariais</a></li>
                 <li><a href="#">Produtos / Serviços</a></li>
-                <li><a href="/fidelity/profissoes/">Profissões</a></li>
+                <li><a href="/fidelity/profissaos/">Profissões</a></li>
                 <li><a href="#">Times de Futebl</a></li>                   
             </ul>
         </li>

@@ -20,7 +20,8 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 <!DOCTYPE html>
 <html>
 <head>
-	<?php echo $this->Html->charset(); ?>
+
+	<?php header("Content-Type: text/html; charset=ISO-8859-1", true); ?>
 	<title>
 		FidelityWeb - Gestão de Programas de Fidelidade
 	</title>
